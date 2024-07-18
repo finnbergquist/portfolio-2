@@ -1,0 +1,46 @@
+/* ProjectsPage.css */
+.project-list {
+  height: 70vh; /* 80% of the viewport height */
+  overflow-y: auto; /* Enable vertical scrolling when content exceeds the height */
+}
+.projects-page {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0); /* Darker background */
+  opacity: 0; /* Initially set to invisible */
+  transition: opacity 0.3s ease; /* Transition effect for opacity */
+}
+
+.projects-page.active {
+  opacity: 1; /* Make visible when active */
+}
+
+.window {
+  width: 90%; /* Adjust width as needed */
+  max-width: 1000px; /* Maximum width for the window */
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Box shadow for depth effect */
+  text-align: center;
+  border-radius: 0; /* Remove rounded corners */
+  opacity: 0; /* Initially set to invisible */
+  transition: opacity 0.3s ease; /* Transition effect for opacity */
+}
+
+.window.active {
+  opacity: 1; /* Make visible when active */
+}
+
+.window h2 {
+  margin-bottom: 10px;
+}
+
+.window p {
+  margin: 0;
+}

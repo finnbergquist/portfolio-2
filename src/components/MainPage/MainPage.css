@@ -1,0 +1,30 @@
+/* MainPage.css */
+
+.main-page {
+    position: relative; /* Ensure proper positioning of the video and content */
+    height: 100vh; /* Set the height of the main page to cover the viewport height */
+  }
+  
+  .background-video {
+    position: absolute; /* Position the video absolutely within the main page */
+    top: 0;
+    left: 0;
+    width: 100%; /* Cover the entire width of the main page */
+    height: 100%; /* Cover the entire height of the main page */
+    object-fit: cover; /* Ensure the video covers the entire container */
+  }
+  
+  .content {
+    position: absolute; /* Position the content absolutely within the main page */
+    top: 50%; /* Align the content vertically centered */
+    left: 50%; /* Align the content horizontally centered */
+    transform: translate(-50%, -50%); /* Center the content properly */
+    text-align: center; /* Align text content to the center */
+    color: white; /* Set the text color */
+  }
+
+  .social-link {
+    margin-right: 20px; /* Add margin to create space between icons */
+    color: white; /* Set the icon color to white */
+  }
+  

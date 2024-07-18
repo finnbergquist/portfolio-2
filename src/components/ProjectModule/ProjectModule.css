@@ -1,0 +1,132 @@
+/* ProjectModule.css */
+
+.project-module {
+    position: relative;
+    width: 100%;
+    height: 25vh; /* Adjust the height as needed */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center items vertically */
+    margin-bottom: 15px;
+  }
+  
+  .project-photo {
+    flex: 1; /* Fill remaining space */
+    height: 100%;
+    object-fit: cover; /* Ensure the photo covers the container */
+  }
+  
+  .description {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    color: rgb(245, 245, 245);
+    text-align: center;
+    width: 80%;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow effect */
+  }
+  
+  .a {
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    width: 150px; /* Fixed width */
+    height: 20vh; /* Fixed height */
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 10px; /* Add margin for spacing */
+    font-size: 50px;
+  }
+  .button {
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    width: 150px; /* Fixed width */
+    height: 20vh; /* Fixed height */
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 10px; /* Add margin for spacing */
+    font-size: 20px;
+  }
+  
+  .a:hover,
+  .button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .button .faGithub {
+    font-size: 24px; /* Adjust the size of the GitHub icon */
+  }
+  
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    z-index: 999; /* Ensure the popup appears above other elements */
+  }
+  
+  .popup-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .popup-background {
+    position: fixed; /* Position the background relative to the viewport */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    backdrop-filter: blur(8px); /* Apply a blur effect to the background */
+    z-index: 998; /* Ensure the background appears below the popup */
+  }
+
+  
+  
+  .github-button,
+  .close-button {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  .github-button:hover,
+  .close-button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .popup-photos {
+    display: flex; /* Use flexbox to create a row layout */
+    justify-content: space-between; /* Distribute items evenly along the row */
+    align-items: center; /* Center items vertically */
+  }
+  
+  .popup-textbox {
+    text-align: center;
+  }
+  .popup-photos img {
+    max-width: 40%; /* Ensure the image doesn't exceed the width of the popup */
+    max-height: 100%; /* Ensure the image doesn't exceed the height of the popup */
+    display: block; /* Ensure the image is treated as a block element */
+    margin: 5px; /* Add padding between images */
+    flex: 0 0 calc(40% - 10px); /* Each image takes up 40% of the container width minus padding */
+  }

@@ -1,0 +1,58 @@
+/* Header.css */
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+  
+  .header h1 {
+    color: white;
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .header nav ul li {
+    margin-right: 10px; /* Add a small margin between buttons */
+  }
+  
+  .header nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .header nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 40px; /* Increase padding for larger buttons */
+    transition: background-color 0.3s ease, opacity 0.3s ease; /* Add transition effects */
+  }
+  
+  .header nav ul li a:focus,
+  .header nav ul li a:focus-within {
+    background-color: rgba(0, 0, 0, 0.5); /* Translucent background */
+    opacity: 0.8; /* Reduce opacity when clicked */
+  }
+  
+  .header nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.5); /* Translucent background */
+    opacity: 0.8; /* Reduce opacity on hover */
+  }
+  
+  .header nav ul li a:hover h1 {
+    font-size: 26px; /* Increase font size on hover */
+  }
+  
