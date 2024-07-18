@@ -45,13 +45,12 @@ const ProjectsPage = () => {
       and personalized musical expression. My co-founder and I pitched this product to an angel investors
       at Walnut Ventures.`,
       githubLink: 'https://github.com/finnbergquist/Groove-Blocks',
-      additionalPhotos: [groove2, groove3],
-      title: "Groove Blocks"
+      additionalPhotos: [groove2, groove3]
     },
     {
       id: 2,
       photo: stocks2,
-      description: `With apartner, we explored utilizing stock data from Yahoo to construct a neural
+      description: `With a partner, we explored utilizing stock data from Yahoo to construct a neural
       network capable of trading. Our endeavor aimed to leverage the power of Deep Q 
       Learning as an improvement over tabular Q learning in handling continuous 
       state representations. Despite facing challenges in optimizing the Deep Q Trader 
@@ -64,8 +63,7 @@ const ProjectsPage = () => {
         it contributed to our broader understanding of utilizing neural networks for trading
          purposes.`,
       githubLink: 'https://github.com/finnbergquist/Stock-Trader-Neural-Net',
-      additionalPhotos: [stocks, stocks1],
-      title: "Stock Trader Neural Net"
+      additionalPhotos: [stocks, stocks1]
     },
     {
       id: 3,
@@ -133,7 +131,6 @@ const ProjectsPage = () => {
       analog signal from each circuit. This limited using resistors with similar resistance values.`
     ,
     additionalPhotos: [symphony1, symphony2],
-    title: "Symphony",
     githubLink: "https://github.com/finnbergquist/Symphony"
     }
 
