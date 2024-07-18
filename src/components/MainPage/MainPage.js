@@ -9,6 +9,7 @@ const MainPage = () => {
   return (
     <div className="main-page">
       <div className="content">
+        <h2>Hi, I'm Finn Bergquist</h2>
         <h1>Welcome to My Portfolio</h1>
         <p>Explore my projects and learn more about me.</p>
 
