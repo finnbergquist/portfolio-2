@@ -9,7 +9,7 @@ const MainPage = () => {
   return (
     <div className="main-page">
       <div className="content">
-        <h2>Hi, I'm Finn Bergquist</h2>
+       <h2>Hi, I'm Finn Bergquist 👋</h2>
         <h1>Welcome to My Portfolio</h1>
         <h5>
           <a href="https://github.com/finnbergquist/portfolio-2" target="_blank" rel="noopener noreferrer" className="btn">Check out the code for this website</a>
