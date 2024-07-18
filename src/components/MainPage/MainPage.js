@@ -11,8 +11,9 @@ const MainPage = () => {
       <div className="content">
         <h2>Hi, I'm Finn Bergquist</h2>
         <h1>Welcome to My Portfolio</h1>
-        <p>Explore my projects and learn more about me.</p>
-
+        <h5>
+          <a href="https://github.com/finnbergquist/portfolio-2" target="_blank" rel="noopener noreferrer" className="btn">Check out the code for this website</a>
+        </h5>
         {/* LinkedIn */}
         <a href="https://www.linkedin.com/in/finn-bergquist/" target="_blank" rel="noopener noreferrer" className="social-link">
           <FontAwesomeIcon icon={faLinkedin} size="3x" />
